@@ -1,0 +1,62 @@
+SELECT * from aluno
+
+SELECT * FROM professor
+
+SELECT * FROM aulas
+
+SELECT nome, responsavel FROM aluno 
+
+SELECT nome, materia, cpf FROM professor
+
+SELECT * FROM aluno WHERE matricula = 1
+
+SELECT * FROM aluno WHERE nome like 'j%'
+
+SELECT * FROM aluno WHERE nome like '%G%'
+
+SELECT matricula, cpf, nome FROM aluno WHERE nome like '%G%'
+
+SELECT * FROM aluno WHERE matricula = 3
+
+SELECT * FROM aluno WHERE nome like 'jakeliny gracielly'
+
+SELECT * FROM aluno WHERE responsavel like 'josefina gracielly'
+
+SELECT * FROM aluno WHERE responsavel like 'josefina%'
+
+SELECT * FROM aluno WHERE responsavel like '%g%'
+
+SELECT * FROM aluno WHERE responsavel like '%y'
+
+SELECT * FROM aluno WHERE matricula > 2
+
+SELECT * FROM aluno WHERE matricula < 10
+
+SELECT * FROM aluno WHERE matricula <= 4
+
+SELECT * FROM aluno WHERE matricula >= 2
+
+SELECT * FROM aluno WHERE matricula <= 2
+
+SELECT * FROM aluno WHERE matricula <> 2
+
+SELECT * from aluno WHERE matricula != 2
+
+SELECT * FROM aluno WHERE matricula = 1 + 1 
+
+SELECT * FROM aluno WHERE matricula = 2 - 1 
+
+SELECT * FROM aluno WHERE matricula = 2 / 2
+
+SELECT * FROM aluno WHERE matricula = 4 % 4
+
+SELECT * FROM aluno WHERE matricula = 8 % 5
+
+SELECT * FROM aluno WHERE nome like 'J%' AND matricula > 2
+
+SELECT * FROM aluno WHERE nome like 'J%' AND matricula >= 1
+
+SELECT * FROM aluno WHERE matricula > 1 OR nome like 'j%'
+
+SELECT * FROM aluno WHERE matricula = 100 OR nome like 'j%'
+
